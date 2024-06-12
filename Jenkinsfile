@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub
-                git branch: 'main', url: 'https://github.com/SaeedPro2020/Assessment-Java-stack.git'
+                git branch: 'main', url: 'https://github.com/SaeedPro2020/Local-Development.git'
             }
         }
 
