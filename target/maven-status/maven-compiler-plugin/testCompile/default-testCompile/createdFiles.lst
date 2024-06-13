@@ -1,1 +1,7 @@
+com/example/utility/CalculationResultGeneratorTest.class
 com/example/AppTest.class
+com/example/utility/MD5HashGeneratorTest.class
+com/example/utility/DivisionCalculatorTest.class
+com/example/utility/ResultRounderTest.class
+com/example/utility/UUIDGeneratorTest.class
+com/example/utility/DateTimeGeneratorTest.class
