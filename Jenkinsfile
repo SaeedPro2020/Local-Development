@@ -20,6 +20,15 @@ pipeline {
             }
         }
 
+        stage('Test') {
+            steps {
+               dir('path/to/your/project') {
+                  // Run the tests
+                  sh 'mvn test'
+                }
+            }
+        }
+
         stage('Run') {
             steps {
                 // Run the application using Maven

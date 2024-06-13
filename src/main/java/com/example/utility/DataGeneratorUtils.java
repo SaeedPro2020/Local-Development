@@ -11,8 +11,11 @@ public class DataGeneratorUtils {
         BigDecimal num2 = new BigDecimal("17.9868");
         BigDecimal divisionResult = DivisionCalculator.calculateDivision(num1, num2);
         BigDecimal roundedResult = ResultRounder.roundResult(divisionResult);
+        String dateTime = DateTimeGenerator.generateCurrentDateTime();
         String calculationResult = CalculationResultGenerator.generateCalculationResult(num1, num2, roundedResult);
-        String md5Hash = MD5HashGenerator.generateMD5Hash(calculationResult);
+        String md5Hash = MD5HashGenerator.generateMD5Hash(uuid + dateTime + roundedResult);;
+
+        System.out.println("string feed: " + uuid + dateTime + roundedResult);
 
         return new Container(uuid, formattedDateTime, num1, num2, roundedResult, calculationResult, md5Hash);
     }
