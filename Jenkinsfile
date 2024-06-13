@@ -33,6 +33,13 @@ pipeline {
                 sh 'mvn compile exec:java -Dexec.mainClass="com.example.Main"'
             }
         }
+
+        stage('Archive Artifacts') {
+            steps {
+                // Archive the jar file and output.json
+                archiveArtifacts artifacts: 'target/*.jar, output.json', allowEmptyArchive: true
+            }
+        }
     }
 
     post {
