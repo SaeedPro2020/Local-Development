@@ -37,7 +37,7 @@ pipeline {
         stage('Archive Artifacts') {
             steps {
                 // Archive the jar file and output.json
-                archiveArtifacts artifacts: 'target/*.jar, output.json', allowEmptyArchive: true
+                archiveArtifacts artifacts: '*.jar, output.json', allowEmptyArchive: true
             }
         }
     }
