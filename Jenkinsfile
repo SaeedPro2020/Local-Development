@@ -22,10 +22,8 @@ pipeline {
 
         stage('Test') {
             steps {
-               dir('path/to/your/project') {
                   // Run the tests
                   sh 'mvn test'
-                }
             }
         }
 
