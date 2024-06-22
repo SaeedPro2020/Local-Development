@@ -17,7 +17,7 @@ public class CalculationResultGeneratorTest {
         final BigDecimal roundedResult = new BigDecimal("3.33");
 
         String expectedResult = "10 / 3 = 3.3333, rounded up to 3.33";
-        String actualResult = CalculationResultGenerator.generateCalculationResult(num1, num2, roundedResult);
+        String actualResult = DataGeneratorUtils.generateCalculationResult(num1, num2, roundedResult);
 
         assertEquals(expectedResult, actualResult, "The result string is not as expected");
 
@@ -27,7 +27,7 @@ public class CalculationResultGeneratorTest {
         final BigDecimal roundedResultInt = new BigDecimal("3.75");
 
         expectedResult = "15 / 4 = 3.7500, rounded up to 3.75";
-        actualResult = CalculationResultGenerator.generateCalculationResult(num1Int, num2Int, roundedResultInt);
+        actualResult = DataGeneratorUtils.generateCalculationResult(num1Int, num2Int, roundedResultInt);
 
         assertEquals(expectedResult, actualResult, "The result string is not as expected with integer inputs");
 

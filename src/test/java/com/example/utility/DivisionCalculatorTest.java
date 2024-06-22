@@ -15,7 +15,7 @@ public class DivisionCalculatorTest {
         BigDecimal num2 = new BigDecimal("7.8912");
 
         BigDecimal expected = num2.divide(num1, 4, RoundingMode.HALF_UP); // Corrected expectation
-        BigDecimal actual = DivisionCalculator.calculateDivision(num1, num2);
+        BigDecimal actual = DataGeneratorUtils.calculateDivision(num1, num2);
 
         assertEquals(expected, actual, "The division result does not match the expected value");
 
@@ -24,7 +24,7 @@ public class DivisionCalculatorTest {
         num2 = new BigDecimal("4.5678");
 
         expected = num1.divide(num2, 4, RoundingMode.HALF_UP); // Corrected expectation
-        actual = DivisionCalculator.calculateDivision(num1, num2);
+        actual = DataGeneratorUtils.calculateDivision(num1, num2);
 
         assertEquals(expected, actual, "The division result does not match the expected value");
 
@@ -33,7 +33,7 @@ public class DivisionCalculatorTest {
         num2 = new BigDecimal("5.4321");
 
         expected = BigDecimal.ONE; // Since num1 = num2, result should be 1
-        actual = DivisionCalculator.calculateDivision(num1, num2);
+        actual = DataGeneratorUtils.calculateDivision(num1, num2);
 
         assertEquals(expected, actual, "The division result does not match the expected value");
     }

@@ -3,7 +3,7 @@
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/saeed_farkhondeh/Desktop/Assignment/java-functional/target/test-classes:/Users/saeed_farkhondeh/Desktop/Assignment/java-functional/target/classes:/Users/saeed_farkhondeh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.class.path" value="/Users/saeed_farkhondeh/Desktop/Java Assignment/java-functional/target/test-classes:/Users/saeed_farkhondeh/Desktop/Java Assignment/java-functional/target/classes:/Users/saeed_farkhondeh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/22.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/saeed_farkhondeh/Desktop/Assignment/java-functional/target/surefire/surefirebooter-20240613023736235_3.jar /Users/saeed_farkhondeh/Desktop/Assignment/java-functional/target/surefire 2024-06-13T02-37-36_196-jvmRun1 surefire-20240613023736235_1tmp surefire_0-20240613023736235_2tmp"/>
+    <property name="sun.java.command" value="/Users/saeed_farkhondeh/Desktop/Java Assignment/java-functional/target/surefire/surefirebooter-20240622183238279_3.jar /Users/saeed_farkhondeh/Desktop/Java Assignment/java-functional/target/surefire 2024-06-22T18-32-38_237-jvmRun1 surefire-20240622183238279_1tmp surefire_0-20240622183238279_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/saeed_farkhondeh/Desktop/Assignment/java-functional/target/test-classes:/Users/saeed_farkhondeh/Desktop/Assignment/java-functional/target/classes:/Users/saeed_farkhondeh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/saeed_farkhondeh/Desktop/Java Assignment/java-functional/target/test-classes:/Users/saeed_farkhondeh/Desktop/Java Assignment/java-functional/target/classes:/Users/saeed_farkhondeh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/saeed_farkhondeh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/saeed_farkhondeh"/>
     <property name="user.language" value="en"/>
@@ -24,13 +24,13 @@
     <property name="java.version.date" value="2024-04-16"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/22.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/saeed_farkhondeh/Desktop/Assignment/java-functional"/>
+    <property name="basedir" value="/Users/saeed_farkhondeh/Desktop/Java Assignment/java-functional"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/saeed_farkhondeh/Desktop/Assignment/java-functional/target/surefire/surefirebooter-20240613023736235_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/saeed_farkhondeh/Desktop/Java Assignment/java-functional/target/surefire/surefirebooter-20240622183238279_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="22.0.1"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/7w/3b2kgqdx5zs6h447kcwnrwg80000gn/T/"/>
     <property name="java.version" value="22.0.1"/>
-    <property name="user.dir" value="/Users/saeed_farkhondeh/Desktop/Assignment/java-functional"/>
+    <property name="user.dir" value="/Users/saeed_farkhondeh/Desktop/Java Assignment/java-functional"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -59,5 +59,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testCalculateDivision" classname="com.example.utility.DivisionCalculatorTest" time="0.001"/>
+  <testcase name="testCalculateDivision" classname="com.example.utility.DivisionCalculatorTest" time="0.0"/>
 </testsuite>

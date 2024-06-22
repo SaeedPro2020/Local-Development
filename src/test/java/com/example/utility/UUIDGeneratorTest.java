@@ -9,7 +9,7 @@ public class UUIDGeneratorTest {
 
     @Test
     public void testGenerateUUID() {
-        String uuid = UUIDGenerator.generateUUID();
+        String uuid = DataGeneratorUtils.generateUUID();
         
         // Check that the UUID is not null
         assertNotNull(uuid);

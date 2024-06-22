@@ -10,7 +10,7 @@ public class DateTimeGeneratorTest {
 
     @Test
     public void testGenerateCurrentDateTime() {
-        String dateTime = DateTimeGenerator.generateCurrentDateTime();
+        String dateTime = DataGeneratorUtils.generateCurrentDateTime();
         
         // Check that the datetime string is in the correct format
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMMM yyyy HH:mm");

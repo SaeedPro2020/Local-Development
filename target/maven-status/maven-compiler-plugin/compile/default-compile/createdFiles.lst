@@ -1,10 +1,4 @@
 com/example/utility/DataGeneratorUtils.class
-com/example/utility/DivisionCalculator.class
-com/example/utility/MD5HashGenerator.class
-com/example/utility/JsonFileWriter.class
-com/example/utility/ResultRounder.class
-com/example/utility/Container.class
-com/example/utility/UUIDGenerator.class
-com/example/utility/CalculationResultGenerator.class
-com/example/utility/DateTimeGenerator.class
 com/example/Main.class
+com/example/utility/JsonFileWriter.class
+com/example/utility/Container.class
