@@ -1,3 +1,8 @@
+    //******** FUNCTIONALITY *********/
+/* 
+    Plain Old Java Object for generated data
+*/
+
 package com.example.utility;
 
 import java.math.BigDecimal;

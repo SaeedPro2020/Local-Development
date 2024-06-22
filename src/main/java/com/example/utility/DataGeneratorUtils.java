@@ -1,3 +1,19 @@
+                //******** FUNCTIONALITY *********/
+/* 
+    • Generates a Random UUID without dashes and uses uppercase letters.
+    • Generates the current datetime in "02 January 2018 21:25" format.
+    • Generates two Random decimal numbers between 1 and 100 with a scale of 4.
+    • Divide the two generated decimal numbers, using the smallest of the two 
+      as the divisor.
+    • Rounds UP the answer of the division to an number with a scale of two.
+    • Generates a String called "calculationResult" that is able to show what
+      calculation was made and how the answer was rounded.
+    • Generates an MD5 hash using (UUID + Current Datetime + Rounded answer ) as
+      concatenated input.
+    • Generate all the data above and creates a basic POJO class from the fields 
+      above called "Container"
+*/
+
 package com.example.utility;
 
 import java.math.BigDecimal;
