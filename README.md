@@ -6,8 +6,11 @@ This repository is for a technical assessment.
     DataGeneratorUtils.java ---Calls---> Container.java
 
 • Main.java class --> Top class in hierarchy
+
 • DataGeneratorUtils.java --> Genrate data
+
 • JsonFileWriter.java --> Write Json data to a file
+
 • Container.java --> POJO class that containes generated data
 
 
