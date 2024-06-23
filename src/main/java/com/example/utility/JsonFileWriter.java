@@ -1,6 +1,7 @@
-          //******** FUNCTIONALITY *********/
-/* This class is responsible for writing the contents of a 
-   Container object to a JSON file.
+         //******** FUNCTIONALITY *********/
+/* 
+    This class is responsible for writing the contents of a 
+    Container object to a JSON file.
 */
 
 package com.example.utility;
