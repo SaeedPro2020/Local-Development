@@ -61,12 +61,18 @@ public class DataGeneratorUtils {
 
     public static String generateMD5Hash(String input) {
         try {
+            // Obtain an instance of the MessageDigest class for MD5 hashing
             MessageDigest md = MessageDigest.getInstance("MD5");
+            // Convert the input string to a byte array and compute the hash
             byte[] hash = md.digest(input.getBytes());
+            // Initialize a StringBuilder to construct the resulting hex string
             StringBuilder hexString = new StringBuilder();
+            // Convert each byte in the hash array to a hex string
             for (byte b : hash) {
                 String hex = Integer.toHexString(0xff & b);
+                // Ensure each hex value is two characters long, pad with '0' if necessary
                 if (hex.length() == 1) hexString.append('0');
+                // Append the hex value to the StringBuilder
                 hexString.append(hex);
             }
             return hexString.toString();
